@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import Cards from "./Components/Cards";
 
 export default function App() {
   const [data, setData] = useState(null);
@@ -9,7 +10,7 @@ export default function App() {
     const fetchData = async () => {
       try {
         const response = await axios.get("https://pokeapi.co/api/v2/pokemon/");
-        setData(response.data);
+        setData(response.data.results);
       } catch (error) {
         setError(error.message);
       }
@@ -17,7 +18,6 @@ export default function App() {
 
     fetchData();
   }, []);
-  console.log(data);
 
-  return;
+  return <Cards data={data} />;
 }
