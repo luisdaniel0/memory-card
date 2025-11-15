@@ -66,8 +66,15 @@ export default function App() {
 
   return (
     <>
-      <Cards pokemonData={pokemonData} handleClick={handleClick} />
+      <div className="gameTitle">
+        <h1>PoKeMatch</h1>
+      </div>
       <Scores userScore={userScore} highestScore={highestScore} />;
+      <Cards pokemonData={pokemonData} handleClick={handleClick} />
+      <h3>
+        Click on as many different Pokemon as you can, but don't click the same
+        one twice!
+      </h3>
     </>
   );
 }
