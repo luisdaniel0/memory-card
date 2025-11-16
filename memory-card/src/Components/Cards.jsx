@@ -11,7 +11,7 @@ export default function Cards({ pokemonData, handleClick }) {
             onClick={() => handleClick(pokemon.id)}
           >
             <img src={pokemon.image} alt={pokemon.name}></img>
-            <h3>{pokemon.name}</h3>
+            <h4>{pokemon.name}</h4>
           </div>
         ))}
       </div>

@@ -3,10 +3,31 @@
 
 * {
   font-family: "Roboto", sans-serif;
+  margin: 0; /* Add this to reset all margins */
+  padding: 0; /* Add this to reset all padding */
+  box-sizing: border-box; /* This helps with sizing */
+  color: rgb(11, 76, 151);
 }
 
 h1 {
   font-family: "Pokemon Solid", sans-serif;
   -webkit-text-stroke: 2px rgb(11, 76, 151);
   text-align: center;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  /* Add this */
+  min-height: 100vh;
+  background-image: url(/src/assets/pokemon-environment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

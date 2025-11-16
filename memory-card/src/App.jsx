@@ -65,17 +65,20 @@ export default function App() {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <>
+    <div className="container">
       <div className="gameTitle">
         <h1>PoKeMatch</h1>
       </div>
-      <Scores userScore={userScore} highestScore={highestScore} />;
+      <Scores userScore={userScore} highestScore={highestScore} />
       <Cards pokemonData={pokemonData} handleClick={handleClick} />
-      <h3>
-        Click on as many different Pokemon as you can, but don't click the same
-        one twice!
-      </h3>
-    </>
+      <div className="howTo">
+        <h3 className="howToTitle">How to Play</h3>
+        <p className="howToParagraph">
+          Click on as many different Pokemon as you can, but don't click the
+          same one twice!
+        </p>
+      </div>
+    </div>
   );
 }
 
