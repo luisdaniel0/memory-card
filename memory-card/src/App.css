@@ -60,8 +60,65 @@ h1 {
   border-radius: 25px;
   background-color: beige;
   color: rgb(11, 76, 151);
+  text-align: center;
 }
 
 .howToTitle {
   text-align: center;
+}
+
+@media screen and (min-width: 732px) {
+  .pokemonGrid {
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 47px;
+  }
+
+  .currentScore,
+  .highestScore {
+    width: 200px;
+    font-size: 1.2rem;
+  }
+  .howTo {
+    max-width: 40vw;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 807px) {
+  .pokemonGrid {
+    gap: 50px;
+  }
+  .pokemonCard {
+    width: 7.8rem;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1064px) {
+  .pokemonCard {
+    width: 13rem;
+    font-size: 25px;
+  }
+
+  .pokemonCard img {
+    width: 150px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  .currentScore,
+  .highestScore {
+    width: 250px;
+    font-size: 1.3rem;
+  }
 }
