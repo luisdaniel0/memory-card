@@ -4,7 +4,7 @@ A React-based memory card game that challenges players to click on different Pok
 
 ## 🔗 Live Demo
 
-**[Play the Game Here!](https://memory-card-8klg92cmt-luisdaniel0s-projects.vercel.app/)**d
+**[Play the Game Here!](https://memory-card-8klg92cmt-luisdaniel0s-projects.vercel.app/)**
 
 ## 🎯 Game Objective
 
@@ -12,7 +12,7 @@ Click on as many different Pokemon cards as possible without clicking the same c
 
 ## ✨ Features
 
-- **Dynamic Card Shuffling**: Cards randomly shuffle after each click to increase difficulty
+- **Dynamic Card Shuffling**: Cards randomly shuffle after each click to increase difficulty.
 - **Score Tracking**:
   - Current score displays your streak of unique selections
   - Best score tracks your highest achievement across sessions
