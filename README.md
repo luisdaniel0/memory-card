@@ -2,6 +2,10 @@
 
 A React-based memory card game that challenges players to click on different Pokemon cards without clicking the same one twice. Built as part of The Odin Project curriculum to practice React hooks and API integration.
 
+## 🔗 Live Demo
+
+**[Play the Game Here!](https://memory-card-8klg92cmt-luisdaniel0s-projects.vercel.app/)**d
+
 ## 🎯 Game Objective
 
 Click on as many different Pokemon cards as possible without clicking the same card twice. Each click shuffles the cards, making it increasingly challenging to remember which Pokemon you've already selected.
@@ -9,7 +13,7 @@ Click on as many different Pokemon cards as possible without clicking the same c
 ## ✨ Features
 
 - **Dynamic Card Shuffling**: Cards randomly shuffle after each click to increase difficulty
-- **Score Tracking**: 
+- **Score Tracking**:
   - Current score displays your streak of unique selections
   - Best score tracks your highest achievement across sessions
 - **Pokemon API Integration**: Fetches real Pokemon data and images from the PokeAPI
@@ -34,17 +38,20 @@ Click on as many different Pokemon cards as possible without clicking the same c
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone <your-repo-url>
 cd pokemon-memory-game
 ```
 
 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 3. Start the development server
+
 ```bash
 npm run dev
 ```
@@ -79,7 +86,7 @@ pokemon-memory-game/
 
 ## 🧩 Key Concepts Learned
 
-- **React Hooks**: 
+- **React Hooks**:
   - `useState` for managing game state (score, clicked cards, card data)
   - `useEffect` for fetching data from API on component mount
 - **API Integration**: Fetching and handling data from external APIs
@@ -91,6 +98,7 @@ pokemon-memory-game/
 ## 🎨 Customization Ideas
 
 Want to make this project your own? Try:
+
 - Adding difficulty levels (more/fewer cards)
 - Implementing a timer
 - Adding sound effects
